@@ -54,11 +54,13 @@
 
 	},
 	"mp-weixin": { /* 微信小程序特有相关 */
-		"appid": "",
+		"appid": "wx2d0ce6085bccf6a2",
 		"setting": {
-			"urlCheck": false
+			"urlCheck": false,
+			"checkSiteMap": false
 		},
 		"usingComponents": true
+		
 	},
 	"mp-alipay" : {
         "usingComponents" : true

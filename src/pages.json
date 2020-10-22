@@ -1,16 +1,98 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
 		{
-			"path": "pages/index/index",
+			"path": "pages/videomap/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},{
+			"path": "pages/classifyDetail/index",
+			"style": {
+				"navigationBarTitleText": "分类详情"
+			}
+		},{
+			"path": "pages/imgdetails/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},{
+			"path": "pages/imgmap/index",
+			"style": {
+				"navigationBarTitleText": "图片"
+			}
+		},{
+			"path": "pages/landscape/index",
+			"style": {
+				"navigationBarTitleText": "横屏"
+			}
+		},{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/videoPlay/index",
+			"style": {
+				"navigationBarTitleText": "视频播放"
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
+		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#000",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "",
+		"selectedColor": "",
+		"backgroundColor": "",
+		"position": "bottom",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "static/icon/_home.png",
+				"selectedIconPath": "static/icon/home.png"
+			},
+			{
+				"pagePath": "pages/imgmap/index",
+				"text": "图片",
+				"iconPath": "static/icon/_img.png",
+				"selectedIconPath": "static/icon/img.png"
+			},
+			{
+				"pagePath": "pages/landscape/index",
+				"text": "横屏",
+				"iconPath": "static/icon/_landscape.png",
+				"selectedIconPath": "static/icon/landscape.png"
+			},
+			{
+				"pagePath": "pages/videomap/index",
+				"text": "视频",
+				"iconPath": "static/icon/_video.png",
+				"selectedIconPath": "static/icon/video.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/icon/_my.png",
+				"selectedIconPath": "static/icon/my.png"
+			}
+		]
 	}
+	
+	  
 }
